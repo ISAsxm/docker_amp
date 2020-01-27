@@ -49,7 +49,7 @@ Pour accéder à phpmyadmin, l'adresse est : http://localhost:8000/
 * pour lister les containers :
     - $ docker-compose ps
 
-* pour supprimer les containers et les volumes de données (attention, supprime tout !): 
+* pour supprimer les containers et les volumes de données (attention, supprime tout !) : 
     - $ docker-compose down -v
 
 
@@ -107,7 +107,7 @@ To access phpmyadmin, the address is: http://localhost:8000/
 * to list the containers:
     - $ docker-compose ps
 
-* to delete containers and data volumes (be careful, delete everything!):
+* to delete containers and data volumes (be careful, delete everything !) :
     - $ docker-compose down -v
 
 ----------------
