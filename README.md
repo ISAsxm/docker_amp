@@ -18,7 +18,7 @@ Responsable : HI
 * modifiez les __nom__, __login__ et __mot de passe__ de la db par vos propres données (ligne 19 à 22 du fichier docker-compose.yml).
 
 * depuis un terminal, rendez-vous à la racine du repo /docker-amp (là où se trouve le fichier docker-compose ) et lancer la ligne de commande suivante :
-$ docker-compose up -d
+    - $ docker-compose up -d
 
 * insérer les fichiers html, php, javaScript, css ... dans le repo /www.
 
@@ -41,16 +41,16 @@ Pour accéder à phpmyadmin, l'adresse est : http://localhost:8000/
 
 
 * pour stopper les containers :
-    $ docker-compose stop
+    - $ docker-compose stop
 
 * pour les relancer si déjà buildés :
-    $ docker-compose start 
+    - $ docker-compose start 
 
 * pour lister les containers :
-    $ docker-compose ps
+    - $ docker-compose ps
 
 * pour supprimer les containers et les volumes de données (attention, supprime tout !): 
-    $ docker-compose down -v
+    - $ docker-compose down -v
 
 
 ----------------
@@ -75,8 +75,8 @@ Responsable : HI
 
 * modify the db __name__, __login__ and __password__ with your own data (line 19 to 22 of the docker-compose.yml file).
 
-* from a terminal, go to the root of the repo / docker-amp (where the docker-compose file is located) and launch the following command line:
-$ docker-compose up -d
+* from a terminal, go to the root of the repo / docker-amp (where the docker-compose file is located) and launch the following command line :
+    - $ docker-compose up -d
 
 * insert html, php, javaScript, css ... files into the repo /www.
 
@@ -89,9 +89,9 @@ $ docker-compose up -d
 ## Utilisation :
 
 
-Once the containers have been built and at least one index.html or index.php file inserted in the repo /www, the application is visible at the following address: http://localhost: 8080/
+Once the containers have been built and at least one index.html or index.php file inserted in the repo /www, the application is visible at the following address: http://localhost:8080/
 
-To access phpmyadmin, the address is: http://localhost: 8000/
+To access phpmyadmin, the address is: http://localhost:8000/
 
 ----------------
 
@@ -99,15 +99,15 @@ To access phpmyadmin, the address is: http://localhost: 8000/
 
 
 * to stop the containers:
-    $ docker-compose stop
+    - $ docker-compose stop
 
 * to relaunch them if already built:
-    $ docker-compose start
+    - $ docker-compose start
 
 * to list the containers:
-    $ docker-compose ps
+    - $ docker-compose ps
 
 * to delete containers and data volumes (be careful, delete everything!):
-    $ docker-compose down -v
+    - $ docker-compose down -v
 
 ----------------
