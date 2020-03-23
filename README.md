@@ -17,6 +17,8 @@ Responsable : HI
 
 * modifiez les __nom__, __login__ et __mot de passe__ de la db par vos propres données (ligne 19 à 22 du fichier docker-compose.yml).
 
+* modifiez les ports si nécéssaire (lignes 6 et 34 u fichier docker-compose.yml).
+
 * depuis un terminal, rendez-vous à la racine du repo /docker-amp (là où se trouve le fichier docker-compose ) et lancer la ligne de commande suivante :
     - $ docker-compose up -d
 
@@ -31,9 +33,9 @@ Responsable : HI
 ## Utilisation :
 
 
-Une fois les containers buildés et au moins un fichier index.html ou index.php inséré dans le repo /www, l'application est visible à l'adresse suivante : http://localhost:8080/
+Une fois les containers buildés et au moins un fichier index.html ou index.php inséré dans le repo /www, l'application est visible à l'adresse suivante : http://localhost:8080/    (ou autre port si modifié).
 
-Pour accéder à phpmyadmin, l'adresse est : http://localhost:8000/
+Pour accéder à phpmyadmin, l'adresse est : http://localhost:8000/   (ou autre port si modifié).
 
 ----------------
 
@@ -64,7 +66,7 @@ Pour accéder à phpmyadmin, l'adresse est : http://localhost:8000/
 
 
 Environnement AMP dockeriser  
-Version : 1.0.0  
+Version : 1.0.1  
 Date : 2020-01-27  
 Responsable : HI  
 
@@ -74,6 +76,8 @@ Responsable : HI
 
 
 * modify the db __name__, __login__ and __password__ with your own data (line 19 to 22 of the docker-compose.yml file).
+
+* modify the ports if necessary (lines 6 and 34 of the docker-compose.yml file).
 
 * from a terminal, go to the root of the repo / docker-amp (where the docker-compose file is located) and launch the following command line :
     - $ docker-compose up -d
@@ -89,9 +93,9 @@ Responsable : HI
 ## Utilisation :
 
 
-Once the containers have been built and at least one index.html or index.php file inserted in the repo /www, the application is visible at the following address: http://localhost:8080/
+Once the containers have been built and at least one index.html or index.php file inserted in the repo /www, the application is visible at the following address: http://localhost:8080/    (or other port if modified).
 
-To access phpmyadmin, the address is: http://localhost:8000/
+To access phpmyadmin, the address is: http://localhost:8000/    (or other port if modified).
 
 ----------------
 
